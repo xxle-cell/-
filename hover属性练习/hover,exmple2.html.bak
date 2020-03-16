@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <style>
+	*{margin:0;padding:0}
+		.d1,.d2{
+			width:280px;
+			height:280px;
+		}
+		.d1{
+			position:relative;
+		}
+		.d1:hover img{
+			transform:scale(1.1);
+		}
+		.d2>img{
+			width:280px;
+			transition:1s;
+		}
+		.d1:hover .d3{
+			display:block;
+		}
+		.d3{
+			width:280px;
+			height:60px;
+			background:green;
+			display:none;
+			position:absolute;
+			bottom:0;
+			z-index:2;
+		}
+		.d4{
+			position:absolute;
+			bottom:20px;
+			z-index:3;
+		}
+		.d4 p{
+			text-align:center;
+			margin:0 auto;
+		}
+ </style>
+ <body>
+		<div class="d1">
+			<div class="d2">
+				<img src="http://images.ebeecake.com/img_w/3489.jpg">
+			</div>
+			<div class="d3"></div>
+			<div class="d4">
+				<p>正品</p>
+				<p>明表</p>
+			</div>
+		</div>
+ </body>
+</html>
